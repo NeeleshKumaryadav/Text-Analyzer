@@ -1,11 +1,8 @@
 import React from 'react';
-import {useNavigate} from 'react-router-dom';
-import LanguageTranslater from './LanguageTranslater';
-import TextForm from './TextForm';
 import { Link } from 'react-router-dom';
 
 export default function Home() {
-    const navigate=useNavigate();
+    
   return (
     <div className='home'>
       <img src={require('../photos/sunset-1401883.jpg')} alt="" />

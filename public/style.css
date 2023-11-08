@@ -76,6 +76,7 @@ body{
     border-radius: 10px;
     font-weight: bold;
     width: 20vw;
+    
     cursor: pointer;
     transition: all ease-out 0.1s;
     text-align: center;
@@ -114,7 +115,7 @@ body{
 
 .text-block{
     position: absolute;
-    top: 100px;
+    top: 30vh;
     padding-left: 2em;
     
 }
